@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cqita{
+    margin-top: 20px;
+    font-size: 40px;
+    color: blue;
+    animation: feri infinite 1s linear;
+}
+
+@keyframes feri {
+    0%{
+        background-color: white;
+    }
+    50%{
+        background-color: darkgreen;
+    }
+    100%{
+        background-color: white;
+    }
+}
+
+.cqitaa{
+    width: 250px;
+    height: 250px;
+    margin-top: 60px;
+}
+
+p{
+    font-size: 20px;
+    color: blueviolet;
+    margin-top: 20px;
+}
+
+.volk{
+    position: absolute;
+    top: 440px;
+    animation: volki  7s linear;
+    animation-delay: 2s;
+}
+
+@keyframes volki {
+    0%{
+        top: 440px;
+    }
+
+    50%{
+        top: 130px;
+    }
+
+    100%{
+        top: 140px ;
+    }
+
+   
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 260px;
+    color: chartreuse;
+    background-color: black;
+}
+
+footer{
+    margin-top: 50px;
+}
+
